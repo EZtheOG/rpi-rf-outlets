@@ -1,5 +1,7 @@
 #!/usr/bin/env python2.7
-
+#
+# created by EZ Bardeguez, ez.bardeguez@gmail.com, tw: eztheog
+#
 import globals
 import os, glob, operator
 import time
@@ -21,7 +23,7 @@ globals.PrintToScreen = True
 # Switches
 # These RF Codes are for my outlets - you will have to sniff for yours
 # See https://github.com/timleland/rfoutlet
-#
+
 sw1on = os.system('sudo ./rfoutlet/codesend 87347')
 sw1off = os.system('sudo ./rfoutlet/codesend 87356')
 
