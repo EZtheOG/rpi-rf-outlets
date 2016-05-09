@@ -1,0 +1,3 @@
+[submodule "rfoutlet/rfoutlet"]
+	path = rfoutlet/rfoutlet
+	url = https://github.com/timleland/rfoutlet
